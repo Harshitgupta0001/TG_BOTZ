@@ -112,9 +112,9 @@ else:
     ON_HEROKU = False
 HAS_SSL=bool(getenv('HAS_SSL',False))
 if HAS_SSL:
-    URL = "https://hahsj-32c2a181122f.herokuapp.com//".format(FQDN)
+    URL = "https://fillter5789-85e856fb2141.herokuapp.com/".format(FQDN)
 else:
-    URL = "https://hahsj-32c2a181122f.herokuapp.com//".format(FQDN)
+    URL = "https://fillter5789-85e856fb2141.herokuapp.com/".format(FQDN)
 
 
 
